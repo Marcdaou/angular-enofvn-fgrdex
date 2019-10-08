@@ -16,9 +16,7 @@
                 <div class="examplecsv">
                   
                   <input id="file" type="file" accept=".xlsx, .xls, .csv" (change)="fileUpload($event.target.files)">
-                  <button (click)="read()">
-                    Read File
-                  </button>
+                  
 
 <!-- <button mat-fab color="warn" (click)="read()"><mat-icon color="warn">attach_file</mat-icon>Read Data</button> -->
 <div *ngFor="let product of idsG; index as productId">
