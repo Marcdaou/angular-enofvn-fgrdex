@@ -8,6 +8,9 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { FetchFromCsvComponent } from './fetch-from-csv/fetch-from-csv.component';
+import { FormFirstComponent } from './form-first/form-first.component';
+import { FormSecondComponent } from './form-second/form-second.component';
+import { FormThirdComponent } from './form-third/form-third.component';
 
 @NgModule({
   imports: [
@@ -25,7 +28,10 @@ import { FetchFromCsvComponent } from './fetch-from-csv/fetch-from-csv.component
     TopBarComponent,
     ProductListComponent,
     HomePageComponent,
-    FetchFromCsvComponent
+    FetchFromCsvComponent,
+    FormFirstComponent,
+    FormSecondComponent,
+    FormThirdComponent
   ],
   bootstrap: [ AppComponent ]
 })
