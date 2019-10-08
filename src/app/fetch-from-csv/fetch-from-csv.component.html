@@ -5,8 +5,8 @@
         <meta charset="utf-8"/>
         <meta content="width=1024, maximum-scale=1.0" name="viewport"/>
         <link href="./css/desktopCopy6.css" rel="stylesheet" type="text/css"/>
-        <meta content="Launchpad by Anima" name="author">
-        </meta>
+        <meta content="Launchpad by Anima" name="author"/>
+        
     </head>
     <body style="margin: 0;
  background: rgba(232, 237, 239, 1.0);">
@@ -19,9 +19,9 @@
             <div class="all">
                 ALL
             </div>
-            <img anima-src="./img/desktop-copy-6-icons8-delete-100@2x.png" class="icons8delete100" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-            <img anima-src="./img/desktop-copy-6-icons8-true-false-480@2x.png" class="icons8truefalse480" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-            <img anima-src="./img/desktop-copy-6-icons8-checkmark-144@2x.png" class="icons8checkmark144" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+            <img anima-src="https://raw.githubusercontent.com/Marcdaou/angular-enofvn-fgrdex/master/src/img/desktop-copy-6-icons8-delete-100%402x.png" class="icons8delete100" src="https://raw.githubusercontent.com/Marcdaou/angular-enofvn-fgrdex/master/src/img/desktop-copy-6-icons8-delete-100%402x.png"/>
+            <img anima-src="https://raw.githubusercontent.com/Marcdaou/angular-enofvn-fgrdex/master/src/img/desktop-copy-6-icons8-true-false-480%402x.png" class="icons8truefalse480" src="https://raw.githubusercontent.com/Marcdaou/angular-enofvn-fgrdex/master/src/img/desktop-copy-6-icons8-true-false-480%402x.png"/>
+            <img anima-src="https://raw.githubusercontent.com/Marcdaou/angular-enofvn-fgrdex/master/src/img/desktop-copy-6-icons8-checkmark-144%402x.png" class="icons8checkmark144" src="https://raw.githubusercontent.com/Marcdaou/angular-enofvn-fgrdex/master/src/img/desktop-copy-6-icons8-checkmark-144%402x.png"/>
             <div class="rectangle2">
             </div>
             <div class="rectangle3">
@@ -33,11 +33,10 @@
             </div>
             <div class="rectangle5">
             </div>
-            <img anima-src="./img/desktop-copy-6-icons8-checkmark-144-1@2x.png" class="icons8checkmark1441" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
             <div class="examplecsv">
-                Example.csv
+                <input id="file" type="file" accept=".xlsx, .xls, .csv" (change)="fileUpload($event.target.files)">
             </div>
-            <img anima-src="./img/desktop-copy-6-line.png" class="line" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+            <img anima-src="https://raw.githubusercontent.com/Marcdaou/angular-enofvn-fgrdex/master/src/img/desktop-copy-6-line.png" class="line" src="https://raw.githubusercontent.com/Marcdaou/angular-enofvn-fgrdex/master/src/img/desktop-copy-6-line.png"/>
             <div class="relevant">
                 RELEVANT
             </div>
@@ -49,16 +48,31 @@
             <div class="relevancelabels">
                 RELEVANCE LABELS
             </div>
-            <img anima-src="./img/desktop-copy-6-line-2.png" class="line2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+            <img anima-src="https://raw.githubusercontent.com/Marcdaou/angular-enofvn-fgrdex/master/src/img/desktop-copy-6-line-2.png" class="line2" src="https://raw.githubusercontent.com/Marcdaou/angular-enofvn-fgrdex/master/src/img/desktop-copy-6-line-2.png"/>
+
+
+            <div *ngFor="let line of rows; index as productId">
+
+            <img anima-src="https://raw.githubusercontent.com/Marcdaou/angular-enofvn-fgrdex/master/src/img/desktop-copy-6-icons8-checkmark-144%402x.png" class="icons8checkmark1441" src="https://raw.githubusercontent.com/Marcdaou/angular-enofvn-fgrdex/master/src/img/desktop-copy-6-icons8-checkmark-144%402x.png"/>
             <div class="aaeikbs">
-                AAEIKBS
+                {{line[0]}}
             </div>
             <div class="aaeikbs1">
-                AAEIKBS
+                {{line[1]}}
             </div>
             <div class="aaeikbs2">
-                AAEIKBS
+                {{line[10]}}
             </div>
+
+            </div>
+
+            
+       
+
+
+
+
+
         </div>
         <!-- Scripts -->
         <script>

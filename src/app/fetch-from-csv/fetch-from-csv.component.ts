@@ -9,7 +9,9 @@ export class FetchFromCsvComponent implements OnInit {
 
   constructor() { }
 
-  idsG:string[] = []
+  idsG:string[] = [];
+  lines:string[] = [];
+  rows = [];
 
   read() {
     
@@ -26,8 +28,10 @@ export class FetchFromCsvComponent implements OnInit {
             const ids = [];
             lines.forEach((line) => {
               const a = line.split(',')[0];
+              this.rows.push(line.split(','))
               if(ids.indexOf(a) == -1)
                 ids.push(a); // Get first item of line
+
             });
             console.log(ids);
             this.idsG = ids;
