@@ -21,7 +21,16 @@
                   </button>
 
 <!-- <button mat-fab color="warn" (click)="read()"><mat-icon color="warn">attach_file</mat-icon>Read Data</button> -->
-I               {{idsG}}
+<div *ngFor="let product of idsG; index as productId">
+
+                <h3>
+                    <div class = "shipping-item">
+
+                      <span>{{ product }}</span>
+                    </div>
+                </h3>
+
+                </div>
                 </div>
             </div>
 
