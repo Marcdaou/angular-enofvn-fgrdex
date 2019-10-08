@@ -10,6 +10,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { FetchFromCsvComponent } from './fetch-from-csv/fetch-from-csv.component';
 import { FormFirstComponent } from './form-first/form-first.component';
 import { MatDatepickerModule, MatNativeDateModule } from '@angular/material';
+import { ServService } from './serv.service';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { MatDatepickerModule, MatNativeDateModule } from '@angular/material';
     FormFirstComponent,
 
   ],
-  bootstrap: [ AppComponent ]
+  bootstrap: [ AppComponent ],
+  providers: [ServService]
 })
 export class AppModule { }
 
