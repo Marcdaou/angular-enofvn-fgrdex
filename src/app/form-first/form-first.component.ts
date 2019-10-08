@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
-import { MustMatch } from './_helpers/must-match.validator';
+import { MustMatch } from './must-match.validator';
 
 @Component({
   selector: 'app-form-first',
