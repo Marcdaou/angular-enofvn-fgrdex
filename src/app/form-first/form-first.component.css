@@ -24,17 +24,14 @@ div {
 .anima-full-height-a {
   height              : 100%;
 }
-textarea:focus, input:focus {
-  outline             : none;
-}
 div {
   -webkit-text-size-adjust: none;
 }
 .desktopcopy3 .validaterequest {
   background-color    : rgba(255,255,255,0.0);
   top                 : 79px;
-  height              : auto;
-  width               : auto;
+  height              : 66px;
+  width               : 549px;
   position            : absolute;
   margin              : 0;
   left                : 76px;
@@ -47,283 +44,90 @@ div {
   text-align          : left;
   line-height         : 66.0px;
 }
-.desktopcopy3 .group2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 305px;
-  height              : calc(100.00% - 483px);
-  width               : calc(100.00% - 341px);
+.desktopcopy3 .rectangle {
+  background-color    : rgba(233, 233, 233, 1.0);
+  top                 : 171px;
+  height              : 18px;
+  width               : calc(99.99% - 137px);
   position            : absolute;
   margin              : 0;
-  left                : 170px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktopcopy3 .group2 .rectangle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 53px;
-  box-sizing          : border-box;
-  width               : 551px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 73px;
   border-radius       : 8px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(186, 186, 186, 1.0);
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.desktopcopy3 .group2 .textrequestdescription {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 30px;
-  width               : 525px;
-  position            : absolute;
-  margin              : 0;
-  left                : 17px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Light", Helvetica, Arial, serif;
-  font-size           : 22.0px;
-  color               : rgba(185, 185, 185, 1.0);
-  text-align          : left;
-  line-height         : 26.0px;
-  border              : 0;
-  resize              : none;
-  padding             : 0;
-}
-.desktopcopy3 .group2 .textrequestdescription::placeholder {
-  color               : rgba(185, 185, 185, 0.6);
-}
-.desktopcopy3 .group2 .rectangle1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 80px;
-  height              : 53px;
-  box-sizing          : border-box;
-  width               : 683px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 8px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(186, 186, 186, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktopcopy3 .group2 .textprojectname {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 91px;
-  height              : 30px;
-  width               : 647px;
-  position            : absolute;
-  margin              : 0;
-  left                : 17px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Light", Helvetica, Arial, serif;
-  font-size           : 22.0px;
-  color               : rgba(185, 185, 185, 1.0);
-  text-align          : left;
-  line-height         : 26.0px;
-  border              : 0;
-  resize              : none;
-  padding             : 0;
-}
-.desktopcopy3 .group2 .textprojectname::placeholder {
-  color               : rgba(185, 185, 185, 0.6);
-}
-.desktopcopy3 .group2 .rectangle2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 160px;
-  height              : 381px;
-  box-sizing          : border-box;
-  width               : 314px;
-  position            : absolute;
-  margin              : 0;
-  left                : 369px;
-  border-radius       : 8px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(186, 186, 186, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktopcopy3 .group2 .solutiondescription {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 179px;
-  height              : 348px;
-  width               : 271px;
-  position            : absolute;
-  margin              : 0;
-  left                : 386px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktopcopy3 .group2 .rectangle3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 160px;
-  height              : 381px;
-  box-sizing          : border-box;
-  width               : 314px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 8px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(186, 186, 186, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktopcopy3 .group2 .textproblemdescription {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 174px;
-  height              : 353px;
-  width               : 273px;
-  position            : absolute;
-  margin              : 0;
-  left                : 17px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Light", Helvetica, Arial, serif;
-  font-size           : 22.0px;
-  color               : rgba(185, 185, 185, 1.0);
-  text-align          : left;
-  line-height         : 26.0px;
-  border              : 0;
-  resize              : none;
-  padding             : 0;
-}
-.desktopcopy3 .group2 .textproblemdescription::placeholder {
-  color               : rgba(185, 185, 185, 0.6);
-}
-.desktopcopy3 .group2 .rectangle4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 53px;
-  width               : 111px;
-  position            : absolute;
-  margin              : 0;
-  left                : 572px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktopcopy3 .group2 .texttype {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 30px;
-  width               : 75px;
-  position            : absolute;
-  margin              : 0;
-  left                : 589px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Light", Helvetica, Arial, serif;
-  font-size           : 22.0px;
-  color               : rgba(185, 185, 185, 1.0);
-  text-align          : left;
-  line-height         : 26.0px;
-  border              : 0;
-  resize              : none;
-  padding             : 0;
-}
-.desktopcopy3 .group2 .texttype::placeholder {
-  color               : rgba(185, 185, 185, 0.6);
-}
-.desktopcopy3 .group {
+.desktopcopy3 .oval {
   background-color    : rgba(255,255,255,0.0);
   top                 : 158px;
-  height              : 94px;
-  width               : calc(100.00% - 52px);
+  height              : 44px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktopcopy3 .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 917px;
+  top                 : 168px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktopcopy3 .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 64px;
+  top                 : 158px;
+  height              : 44px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktopcopy3 .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 158px;
+  height              : 44px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : calc(50.00% - 22px);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktopcopy3 .request {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 216px;
+  height              : auto;
+  width               : 137px;
   position            : absolute;
   margin              : 0;
   left                : 26px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
+  font-family         : "Helvetica-Light", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(185, 185, 185, 1.0);
+  text-align          : left;
+  line-height         : 36.0px;
 }
-.desktopcopy3 .group .rectangle {
-  background-color    : rgba(233, 233, 233, 1.0);
-  top                 : 13px;
-  height              : 18px;
-  width               : 887px;
-  position            : absolute;
-  margin              : 0;
-  left                : 47px;
-  border-radius       : 8px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktopcopy3 .group .oval {
+.desktopcopy3 .material {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 44px;
-  width               : 44px;
-  position            : absolute;
-  margin              : 0;
-  left                : 47px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktopcopy3 .group .oval1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 25px;
-  width               : 25px;
-  position            : absolute;
-  margin              : 0;
-  left                : 56px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktopcopy3 .group .oval2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 44px;
-  width               : 44px;
-  position            : absolute;
-  margin              : 0;
-  left                : 890px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktopcopy3 .group .oval3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 44px;
-  width               : 44px;
-  position            : absolute;
-  margin              : 0;
-  left                : 462px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktopcopy3 .group .request {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 58px;
+  width               : auto;
   height              : auto;
-  width               : 137px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  pointer-events      : auto;
+  position            : relative;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -333,31 +137,26 @@ div {
   text-align          : left;
   line-height         : 36.0px;
 }
-.desktopcopy3 .group .material {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 54px;
+.desktopcopy3 .material-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 212px;
+  align-items         : center;
   height              : auto;
-  width               : 143px;
+  width               : 100%;
   position            : absolute;
   margin              : 0;
-  left                : 421px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica-Light", Helvetica, Arial, serif;
-  font-size           : 30.0px;
-  color               : rgba(185, 185, 185, 1.0);
-  text-align          : left;
-  line-height         : 36.0px;
+  display             : flex;
+  left                : 0;
 }
-.desktopcopy3 .group .amount {
+.desktopcopy3 .amount {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 54px;
-  height              : auto;
+  right               : 26px;
+  top                 : 212px;
+  height              : 36px;
   width               : 129px;
   position            : absolute;
   margin              : 0;
-  left                : 843px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -367,7 +166,7 @@ div {
   text-align          : left;
   line-height         : 36.0px;
 }
-.desktopcopy3 .group3 {
+.desktopcopy3 .rectangle1 {
   background-color    : rgba(255,255,255,0.0);
   right               : 64px;
   bottom              : 47px;
@@ -379,26 +178,14 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.desktopcopy3 .group3 .rectangle {
+.desktopcopy3 .next {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 68px;
-  width               : 195px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.desktopcopy3 .group3 .next {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
+  right               : 64px;
+  bottom              : 47px;
   height              : 60px;
-  width               : 189px;
+  width               : 187px;
   position            : absolute;
   margin              : 0;
-  left                : 1px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
