@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {read, write, utils} from 'xlsx';
 
 @Component({
   selector: 'app-root',
