@@ -63,6 +63,9 @@ div {
   line-height         : 26.0px;
 }
 
+.desktopcopy3 .input1 {
+    font-size           : 25.0px;
+}
 .desktopcopy3 .rectangle {
   background-color    : rgba(233, 233, 233, 1.0);
   top                 : 171px;
