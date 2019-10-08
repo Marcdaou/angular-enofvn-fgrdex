@@ -9,6 +9,8 @@ export class FetchFromCsvComponent implements OnInit {
 
   constructor() { }
 
+  idsG:string[] = []
+
   read() {
     
   }
@@ -23,9 +25,12 @@ export class FetchFromCsvComponent implements OnInit {
             const lines = res.split('\n'); // Splits you file into lines
             const ids = [];
             lines.forEach((line) => {
-                ids.push(line.split(',')[0]); // Get first item of line
+              const a = line.split(',')[0];
+              if(ids.indexOf(a) == -1)
+                ids.push(a); // Get first item of line
             });
             console.log(ids);
+            this.idsG = ids;
         };
     }
 }
