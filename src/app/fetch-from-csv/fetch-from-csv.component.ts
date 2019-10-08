@@ -9,6 +9,10 @@ export class FetchFromCsvComponent implements OnInit {
 
   constructor() { }
 
+  openPicker() {
+    
+  }
+
   ngOnInit() {
   }
 
