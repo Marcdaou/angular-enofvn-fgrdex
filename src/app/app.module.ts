@@ -7,14 +7,16 @@ import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { FetchFromCsvComponent } from './fetch-from-csv/fetch-from-csv.component';
 
 @NgModule({
   imports: [
     BrowserModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
-      { path: 'sam', component: ProductListComponent },
+      { path: 'samsung', component: ProductListComponent },
       { path: '', component: HomePageComponent },
+      { path: 'csv', component: FetchFromCsvComponent },
 
     ])
   ],
@@ -22,7 +24,8 @@ import { HomePageComponent } from './home-page/home-page.component';
     AppComponent,
     TopBarComponent,
     ProductListComponent,
-    HomePageComponent
+    HomePageComponent,
+    FetchFromCsvComponent
   ],
   bootstrap: [ AppComponent ]
 })
