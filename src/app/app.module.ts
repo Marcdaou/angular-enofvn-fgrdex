@@ -11,6 +11,7 @@ import { FetchFromCsvComponent } from './fetch-from-csv/fetch-from-csv.component
 import { FormFirstComponent } from './form-first/form-first.component';
 import { MatDatepickerModule, MatNativeDateModule } from '@angular/material';
 import { ServService } from './serv.service';
+import { NewFetchFromCsvComponent } from './new-fetch-from-csv/new-fetch-from-csv.component';
 
 
 @NgModule({
@@ -33,6 +34,7 @@ import { ServService } from './serv.service';
     HomePageComponent,
     FetchFromCsvComponent,
     FormFirstComponent,
+    NewFetchFromCsvComponent,
 
   ],
   bootstrap: [ AppComponent ],
