@@ -20,6 +20,7 @@ import { FormThirdComponent } from './form-third/form-third.component';
       { path: 'samsung', component: ProductListComponent },
       { path: '', component: HomePageComponent },
       { path: 'csv', component: FetchFromCsvComponent },
+      { path: 'form1', component: FormFirstComponent },
 
     ])
   ],
