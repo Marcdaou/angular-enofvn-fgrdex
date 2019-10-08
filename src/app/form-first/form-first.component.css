@@ -1,0 +1,494 @@
+
+
+.desktopcopy3 {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 1024px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+textarea:focus, input:focus {
+  outline             : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.desktopcopy3 .validaterequest {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 79px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 76px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 55.0px;
+  color               : rgba(76, 76, 76, 1.0);
+  text-align          : left;
+  line-height         : 66.0px;
+}
+.desktopcopy3 .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 305px;
+  height              : calc(100.00% - 483px);
+  width               : calc(100.00% - 341px);
+  position            : absolute;
+  margin              : 0;
+  left                : 170px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktopcopy3 .group2 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 53px;
+  box-sizing          : border-box;
+  width               : 551px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 8px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(186, 186, 186, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktopcopy3 .group2 .textrequestdescription {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 30px;
+  width               : 525px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Light", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(185, 185, 185, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.desktopcopy3 .group2 .textrequestdescription::placeholder {
+  color               : rgba(185, 185, 185, 0.6);
+}
+.desktopcopy3 .group2 .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 80px;
+  height              : 53px;
+  box-sizing          : border-box;
+  width               : 683px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 8px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(186, 186, 186, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktopcopy3 .group2 .textprojectname {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 91px;
+  height              : 30px;
+  width               : 647px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Light", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(185, 185, 185, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.desktopcopy3 .group2 .textprojectname::placeholder {
+  color               : rgba(185, 185, 185, 0.6);
+}
+.desktopcopy3 .group2 .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 160px;
+  height              : 381px;
+  box-sizing          : border-box;
+  width               : 314px;
+  position            : absolute;
+  margin              : 0;
+  left                : 369px;
+  border-radius       : 8px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(186, 186, 186, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktopcopy3 .group2 .solutiondescription {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 179px;
+  height              : 348px;
+  width               : 271px;
+  position            : absolute;
+  margin              : 0;
+  left                : 386px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktopcopy3 .group2 .rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 160px;
+  height              : 381px;
+  box-sizing          : border-box;
+  width               : 314px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 8px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(186, 186, 186, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktopcopy3 .group2 .textproblemdescription {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 174px;
+  height              : 353px;
+  width               : 273px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Light", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(185, 185, 185, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.desktopcopy3 .group2 .textproblemdescription::placeholder {
+  color               : rgba(185, 185, 185, 0.6);
+}
+.desktopcopy3 .group2 .rectangle4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 53px;
+  width               : 111px;
+  position            : absolute;
+  margin              : 0;
+  left                : 572px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktopcopy3 .group2 .texttype {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 30px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 589px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Light", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(185, 185, 185, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.desktopcopy3 .group2 .texttype::placeholder {
+  color               : rgba(185, 185, 185, 0.6);
+}
+.desktopcopy3 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 158px;
+  height              : 94px;
+  width               : calc(100.00% - 52px);
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktopcopy3 .group .rectangle {
+  background-color    : rgba(233, 233, 233, 1.0);
+  top                 : 13px;
+  height              : 18px;
+  width               : 887px;
+  position            : absolute;
+  margin              : 0;
+  left                : 47px;
+  border-radius       : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktopcopy3 .group .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 47px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktopcopy3 .group .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktopcopy3 .group .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 890px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktopcopy3 .group .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 462px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktopcopy3 .group .request {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 58px;
+  height              : auto;
+  width               : 137px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Light", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(185, 185, 185, 1.0);
+  text-align          : left;
+  line-height         : 36.0px;
+}
+.desktopcopy3 .group .material {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 54px;
+  height              : auto;
+  width               : 143px;
+  position            : absolute;
+  margin              : 0;
+  left                : 421px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Light", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(185, 185, 185, 1.0);
+  text-align          : left;
+  line-height         : 36.0px;
+}
+.desktopcopy3 .group .amount {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 54px;
+  height              : auto;
+  width               : 129px;
+  position            : absolute;
+  margin              : 0;
+  left                : 843px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Light", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(185, 185, 185, 1.0);
+  text-align          : left;
+  line-height         : 36.0px;
+}
+.desktopcopy3 .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 64px;
+  bottom              : 47px;
+  height              : 60px;
+  width               : 187px;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktopcopy3 .group3 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 195px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktopcopy3 .group3 .next {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 60px;
+  width               : 189px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 26.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-valign-text-middle {
+  display             : flex;
+  flex-direction      : column;
+  justify-content     : center;
+}
