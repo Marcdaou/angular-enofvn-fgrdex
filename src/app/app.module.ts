@@ -13,8 +13,8 @@ import { HomePageComponent } from './home-page/home-page.component';
     BrowserModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
-      { path: '', component: ProductListComponent },
-      { path: 'home', component: HomePageComponent },
+      { path: 'sam', component: ProductListComponent },
+      { path: '', component: HomePageComponent },
 
     ])
   ],
