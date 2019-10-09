@@ -39,7 +39,7 @@ export class FetchFromCsvComponent implements OnInit {
             this.idsG = ids;
 
             output: JSON;
-          obj = 
+          obj: any = 
             {
             "col1":{"Attribute1": "value1", "Attribute2": "value2", "Attribute3": "value3"},
             "col2":{"Attribute1": "value4", "Attribute2": "value5", "Attribute3": "value6"}, 
