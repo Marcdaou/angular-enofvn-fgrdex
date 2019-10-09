@@ -32,8 +32,10 @@
                 SERVICES
             </div>
             <div class="rectangle5">
+              
             </div>
             <div class="examplecsv">
+              
                 <input id="file" type="file" accept=".xlsx, .xls, .csv" (change)="fileUpload($event.target.files)">
             </div>
             <img anima-src="https://raw.githubusercontent.com/Marcdaou/angular-enofvn-fgrdex/master/src/img/desktop-copy-6-line.png" class="line" src="https://raw.githubusercontent.com/Marcdaou/angular-enofvn-fgrdex/master/src/img/desktop-copy-6-line.png"/>
@@ -47,21 +49,25 @@
             </div>
             <div class="relevancelabels">
                 RELEVANCE LABELS
-            </div>
-            <img anima-src="https://raw.githubusercontent.com/Marcdaou/angular-enofvn-fgrdex/master/src/img/desktop-copy-6-line-2.png" class="line2" src="https://raw.githubusercontent.com/Marcdaou/angular-enofvn-fgrdex/master/src/img/desktop-copy-6-line-2.png"/>
 
+            </div>
 
             <div *ngFor="let line of rows; index as productId">
 
             <img anima-src="https://raw.githubusercontent.com/Marcdaou/angular-enofvn-fgrdex/master/src/img/desktop-copy-6-icons8-checkmark-144%402x.png" class="icons8checkmark1441" src="https://raw.githubusercontent.com/Marcdaou/angular-enofvn-fgrdex/master/src/img/desktop-copy-6-icons8-checkmark-144%402x.png"/>
             <div class="aaeikbs">
-                {{line[0]}}
+                <br/>{{line[0]}}<br/>
             </div>
+            <img anima-src="https://raw.githubusercontent.com/Marcdaou/angular-enofvn-fgrdex/master/src/img/desktop-copy-6-line-2.png" class="line2" src="https://raw.githubusercontent.com/Marcdaou/angular-enofvn-fgrdex/master/src/img/desktop-copy-6-line-2.png"/>
             <div class="aaeikbs1">
+              <h3>
                 {{line[1]}}
+              </h3>
             </div>
             <div class="aaeikbs2">
+              <h3>
                 {{line[10]}}
+              </h3>
             </div>
 
             </div>

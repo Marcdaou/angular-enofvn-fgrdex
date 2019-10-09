@@ -113,7 +113,7 @@ div {
   transform           : rotate(0deg);
 }
 .desktopcopy6 .rectangle2 {
-  background-color    : rgba(255,255,255,0.0);
+  background-color    : rgba(2,2,255,0.0);
   top                 : 75px;
   height              : 172px;
   box-sizing          : border-box;
@@ -191,7 +191,6 @@ div {
 }
 .desktopcopy6 .icons8checkmark1441 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 176px;
   height              : 19px;
   width               : 19px;
   position            : absolute;
@@ -299,7 +298,6 @@ div {
 }
 .desktopcopy6 .line2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 205px;
   height              : 1px;
   width               : 810px;
   position            : absolute;
@@ -307,6 +305,7 @@ div {
   left                : 192px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    line-height         : 66.0px;
   transform           : rotate(0deg);
 }
 .desktopcopy6 .aaeikbs {
@@ -325,6 +324,7 @@ div {
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
   line-height         : 19.0px;
+  
 }
 .desktopcopy6 .aaeikbs1 {
   background-color    : rgba(255,255,255,0.0);

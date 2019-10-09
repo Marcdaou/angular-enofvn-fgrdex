@@ -28,9 +28,11 @@ export class FetchFromCsvComponent implements OnInit {
             const ids = [];
             lines.forEach((line) => {
               const a = line.split(',')[0];
-              this.rows.push(line.split(','))
-              if(ids.indexOf(a) == -1)
+              if(ids.indexOf(a) == -1) {
                 ids.push(a); // Get first item of line
+                this.rows.push(line.split(','))
+              }
+
 
             });
             console.log(ids);
